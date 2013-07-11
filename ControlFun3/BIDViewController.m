@@ -62,7 +62,7 @@
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
-    UIActionSheet *actionSheet = [[UIActionSheet alloc]initWithTitle:@"Are you sure?" delegate:self cancelButtonTitle:@"No Way!" destructiveButtonTitle:@"Yes, I'm sure!" otherButtonTitles:nil];
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]initWithTitle:@"Are you really sure?" delegate:self cancelButtonTitle:@"No Way!" destructiveButtonTitle:@"Yes, I'm sure!" otherButtonTitles:nil];
     [actionSheet showInView:self.view];
 }
 
